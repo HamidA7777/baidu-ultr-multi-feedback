@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Environments
+.env
+.venv/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Training outputs
+checkpoints/
+predictions/
+fusion/
+utils/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp

@@ -1,0 +1,19 @@
+name: baidu-bert-model
+
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - pyarrow
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - pytorch
+  - cuda-toolkit=11.8
+  - transformers
+  - huggingface_hub
