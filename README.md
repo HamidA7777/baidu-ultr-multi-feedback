@@ -1,4 +1,4 @@
-# Pretrained Multi-Feedback Cross-Encoders for Baidu-ULTR
+# Multi-Feedback Neural Ranking Baselines for Baidu-ULTR
 
 This repository provides pretrained cross-encoder ranking models, training recipes, evaluation code, and fusion baselines for the Baidu-ULTR dataset.
 
