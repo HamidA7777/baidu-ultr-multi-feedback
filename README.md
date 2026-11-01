@@ -207,6 +207,11 @@ python src/multi_task_fuse.py \
     --output-dir fusion/click-skip-dwell
 ```
 
+The `validation.feather` file required by `--bm25` is available from
+[Philipp Hager's Baidu-ULTR repository](https://huggingface.co/datasets/philipphager/baidu-ultr_baidu-mlm-ctr/blob/main/parts/validation.feather).
+It provides BM25 scores for baseline evaluation on the same held-out queries.
+These scores are not used to train the fusion model.
+
 Supported feature combinations are:
 
 ```text
